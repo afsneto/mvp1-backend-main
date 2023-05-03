@@ -7,7 +7,7 @@ from model import Session, Cable
 from schemas import *
 
 
-info = Info(title="API para gerenciamento de coleção de cabos",
+info = Info(title="API para gerenciamento de cabos armazenados",
             version="1.0.0")
 app = OpenAPI(__name__, info=info)
 CORS(app)
